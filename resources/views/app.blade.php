@@ -15,7 +15,7 @@
 
 <body class="bg-slate-950 font-mono">
     @inertia
-    <footer class="absolute bottom-0 left-0 w-full text-white text-center p-4 pb-8">
+    <footer class="absolute bottom-0 left-0 w-full min-w-[768px] text-white text-center p-4 pb-8">
         <div class="w-full pt-10">
             <div class="flex items-center justify-center mb-2">
                 <a href="https://linkedin.com/in/bagas-aditiya-92a2a3262" target="_blank"

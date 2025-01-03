@@ -226,7 +226,7 @@ const App = () => {
 
     return (
         <>
-            <div className="h-full w-full max-w-screen-lg mx-auto flex flex-col items-center mt-8">
+            <div className="h-full w-full max-w-screen-lg min-w-[768px] mx-auto flex flex-col items-center mt-8">
                 <div className="flex justify-between w-full max-w-screen-lg mx-auto">
                     <div className="flex flex-row items-center">
                         <img
@@ -328,7 +328,7 @@ const App = () => {
                             className="flex justify-center mb-1"
                         >
                             {row.map((key, keyIndex) => (
-                                <button
+                                <div
                                     onClick={handleKeyboard}
                                     key={keyIndex}
                                     style={{
@@ -365,7 +365,7 @@ const App = () => {
                                         `}
                                 >
                                     {key}
-                                </button>
+                                </div>
                                 // ${key === "`" ? "opacity-0" : ""}
                                 // ${key === "[" ? "opacity-0" : ""}
                                 // ${key === "]" ? "opacity-0" : ""}

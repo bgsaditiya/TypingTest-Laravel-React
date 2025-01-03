@@ -34,7 +34,9 @@ const App = () => {
         setUserInput("");
         setKoreksiKata(true);
         try {
-            const response = await axios.get("http://localhost:8000/api/words");
+            const response = await axios.get(
+                "http://typing.bgsaditiya.my.id/api/words"
+            );
             setWords(response.data);
             setWordsJoin(response.data.slice(1).join(" "));
             setLoading(false);

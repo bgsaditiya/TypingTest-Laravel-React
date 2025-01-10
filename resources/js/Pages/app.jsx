@@ -465,7 +465,7 @@ const App = () => {
                             </a>
                             ,{" "}
                             <a
-                                href="https://laravel.com/"
+                                href="https://id.react.dev/"
                                 target="_blank"
                                 className="text-slate-400 hover:text-react"
                             >
